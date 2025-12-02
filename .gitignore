@@ -1,0 +1,21 @@
+# Bỏ qua môi trường ảo (Cái này nặng nhất)
+venv_chuan/
+venv_traffic/
+venv/
+env/
+
+# Bỏ qua file rác của Python
+__pycache__/
+*.pyc
+
+# Bỏ qua cài đặt của IDE (VS Code, Pycharm)
+.vscode/
+.idea/
+
+# Bỏ qua video quá nặng (Nếu video > 100MB GitHub sẽ báo lỗi)
+# Nếu video nhẹ thì có thể bỏ dấu # ở dòng dưới đi để up lên
+# vid_GiaoThong/
+
+# Bỏ qua các file model gốc (nếu không cần thiết)
+yolov5s.pt
+yolov5m.pt
